@@ -4,7 +4,7 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 
 void main() {
-  // ✅ inisialisasi database untuk Windows/Linux/Mac
+ 
   sqfliteFfiInit();
   databaseFactory = databaseFactoryFfi;
 
